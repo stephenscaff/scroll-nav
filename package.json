@@ -1,0 +1,38 @@
+{
+  "name": "scroll-nav",
+  "version": "1.0.0",
+  "description": "A scolling page nav component, using native scrollBy if available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenscaff/scroll-nav.git"
+  },
+  "keywords": [
+    "scrollBy",
+    "scrolling",
+    "nav"
+  ],
+  "author": "Stephen Scaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenscaff/scroll-nav/issues"
+  },
+  "homepage": "https://github.com/stephenscaff/scroll-nav#readme",
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-terser": "^1.2.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
