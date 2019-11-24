@@ -1,7 +1,7 @@
 # Scroll Nav
 
 A simple method for creating a scroll to page anchor nav component.
-Leverages native `scrollBy` if available, with a polyfill.
+Leverages native `scrollBy` if available, with a polyfill fallback for Safari, Edge and IE.
 
 
 ### Init
